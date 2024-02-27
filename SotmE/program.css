@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+  padding: 0;
+}
+body{
+    /* height:100%; */
+    padding: 30px;
+
+    /* width: 100%; */
+    /* overflow-wrap: break-word;
+    text-overflow: ellipsis; */
+  
+  
+.items{ 
+   height: auto;
+   width: 100%;
+    backdrop-filter: blur(5px);
+    display:inline;
+    flex-flow: row;
+   margin-top: 20px;
+   padding: 20px;
+   
+  
+  
+}
+ 
+ .list h{
+   
+   width: 100vh;
+   float: right;
+   justify-self: center;
+    align-items: center;
+    font-style: italic; 
+    font-weight: lighter;
+    margin-top: 30px;
+    padding: 10px;
+    
+} 
+ 
+.items h2{
+    font-style: italic;
+    justify-content: center;
+    margin-left: 10px;
+    align-items: center;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    text-align:center;
+    padding: 0px;
+} 
+.list{
+    
+  align-items: center;
+  align-content: center;
+   height:auto;
+margin-left: 60px; 
+ margin-right: 60px;
+    font-weight: 600;
+    padding:   15px;
+    /* margin-top: 30px; */
+    /* display: grid; */
+    grid-row: 2fr 2fr;
+    grid-gap: 20px;
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: center;
+    
+    
+   }
+   .it1:hover{
+ color: aliceblue;
+ transition: 0.2s;
+   }
+   .it2:hover{
+    color: aliceblue;
+    transition: 0.2s;
+      }
+    .it3:hover{
+        color: aliceblue;
+        transition: 0.2s;
+      }
+      .it4:hover{
+            color: aliceblue;
+            transition: 0.2s;
+              }
+              .it5:hover{
+                color: aliceblue;
+                transition: 0.2s;
+                  }
+                  .it5:hover{
+                    color: aliceblue;
+                    transition: 0.2s;
+                      }
+                      .it6:hover{
+                        color: aliceblue;
+                        transition: 0.2s;
+                          } .it7:hover{
+                            color: aliceblue;
+                            transition: 0.2s;
+                              }
+                              .it8:hover{
+                                color: aliceblue;
+                                transition: 0.2s;
+                                  }      
+                                  .it9:hover{
+                                    color: aliceblue;
+                                    transition: 0.2s;
+                                      }
+                                      .it10:hover{
+                                        color: aliceblue;
+                                        transition: 0.2s;
+                                          }                               
+   
+.it1{
+   
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+.it2{
+    background-color: rgb(35, 124, 128);
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.it3{ background-color: rgb(114, 158, 12);
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.it4{
+    background-color: rgb(255, 0, 255);
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+
+}
+.it5{
+    background-color: rgb(255, 102, 0);
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.it6{
+    background-color: rgb(0, 255, 34);
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+
+}
+.it7{
+    background-color: rgb(101, 101, 114);
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.it8{
+    background-color: rgb(255, 251, 0);
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+.it9{
+    background-color: rgb(95, 23, 71);
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+ .it10{background-color: rgba(25, 92, 148, 0.452);
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;}
+
+ }
+
+
+
+

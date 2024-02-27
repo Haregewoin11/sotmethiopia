@@ -1,0 +1,205 @@
+body{
+    
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    /* background-color: rgb(158, 147, 147);
+    */
+   /* height:50vh;
+   width:auto; */
+   
+    
+}
+
+.organizer{
+    
+     margin-top: 30px;
+     margin-left: 30px;
+
+    
+    color: black;
+    justify-content: center;
+    align-items: first center;
+    font-style: italic;
+    
+}
+.photo{
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.photo img{
+    width: 200px;
+     height: 200px;
+     margin: 10px;
+}
+@media(max-width: 400px){
+   .photo img{
+    width: 100%;
+   }
+}
+
+.team {
+    
+   align-items: center;
+   align-content: center;
+    height: fit-content;
+    width: auto;
+margin-left: 60px;
+margin-right: 60px;
+     font-weight: 600;
+     padding:   15px;
+     /* margin-top: 30px; */
+     display: grid;
+     grid-row: 2fr 2fr;
+     grid-gap: 20px;
+     display: flex;
+     align-items:center;
+     flex-wrap: wrap;
+     overflow: auto;
+     justify-content: center;
+     
+     }
+     
+     .photo{
+        /* display: flex;
+        flex-direction:row;
+        justify-content: center;
+        margin: 5px;
+        margin-left: 80px;
+        align-items: center;
+        overflow-wrap: break-word; */
+        /* overflow-inline:auto;
+       text-overflow: ellipsis;
+       width: fit-content; */
+       
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top:30px;
+  padding: 10px;
+}
+
+.organizer h2{
+    margin-top:50px;
+    display: flex;
+    flex-flow:row;
+    justify-content: center;
+}
+
+     .or{
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+    .or img{
+        width: 150px;
+        height: 150px;
+
+    }
+    .or label{
+        margin-top: 5px;
+        text-align: center;
+    }
+     .photo img{
+        flex-direction: row;
+      justify-content:center;
+      align-items: center;
+        width:300px;
+    height:200px ;  
+    border-radius: 20px;
+    padding: 10px;
+    overflow-wrap: break-word;
+   text-overflow: ellipsis;
+   
+
+
+
+    
+   }
+ .or1{
+    background-color: rgb(208, 208, 224);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+}
+.or2{
+    background-color:  rgb(208, 208, 224);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+}.or3{
+    background-color: rgb(208, 208, 224);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+}
+.or4{
+    background-color: rgb(208, 208, 224);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+}
+.or5{
+    background-color: rgb(208, 208, 224);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+}
+.or6{
+    background-color:  rgb(208, 208, 224);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+}
+.or7{
+    background-color: rgb(208, 208, 224);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+}
+.or8{
+    background-color:  rgb(208, 208, 224);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+}
+.or9{
+    background-color:  rgb(208, 208, 224);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+
+}
+.or10{
+    background-color: rgb(208, 208, 224);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+margin: 10px;
+}
+.or11{
+    background-color: rgb(208, 208, 224);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+}
+.or12{
+    background-color:  rgb(208, 208, 224);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+}

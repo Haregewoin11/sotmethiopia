@@ -1,0 +1,126 @@
+*{
+padding:0;
+margin: 0;
+overflow-x: hidden;
+scroll-behavior: smooth;
+ scroll-padding: var(--scroll-padding, 5rem);
+
+}
+html{
+ scroll-behavior: smooth;
+ scroll-padding: var(--scroll-padding, 5rem);
+
+}
+.menu-toggle{
+    display: none;
+}
+
+ 
+
+@media (max-width:780px){
+    nav{
+        margin-top: 10px;
+        display: flex;
+         flex-direction: column;
+        color:white;
+        align-items: center;
+        white-space: nowrap; 
+        
+        
+        }
+        .nav ul li {
+            padding: 5px;
+           display: inline;
+           line-height: 80px;
+           margin: 0 5px;
+          margin-left: 20px;
+            text-decoration: none;
+            margin-right: 15px;
+          text-align: justify;
+        }
+      .nav ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 7px 13px;
+        border-radius: 3;
+        position: fixed;
+      }
+  .nav ul li a:hover{
+    color:rgb(121, 16, 30);
+    transition: 0.2s;
+  }
+  .nav ul li:hover{
+    color: rgb(121, 16, 30);
+   
+     }
+
+.menu-toggle{
+        display: block;
+        color: firebrick;
+        font-size: 20px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;}
+    .menu{
+        display: none;
+     } 
+    .menu .active{
+        display:none;
+
+    }
+    .menu li{
+        color: white;
+        display: block;
+        text-align: center;
+        margin-bottom:10px;
+    
+    
+    }
+
+#organizer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ background-color:rgb(217, 241, 217);
+  flex-wrap: wrap;
+  margin-left: 10px;
+}
+
+}
+#home{
+    width: 100%;
+}
+#organizer{
+    width: 100%;
+    background-color:rgb(217, 241, 217) ;
+}
+#program{
+    width: 100%;
+background-color: rgb(217, 241, 217);
+/* margin-top: 20px; */
+backdrop-filter: blur(15px);
+overflow-y: hidden;
+overflow-x: hidden;
+
+
+}
+#about{
+    width: 100%;
+    margin-top: 0px;
+    backdrop-filter: blur(25px);
+    /* height: fit-content; */
+ margin-right:0;
+    
+    
+}
+
